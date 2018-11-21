@@ -1,0 +1,30 @@
+{
+  "name": "thesaurus-example-tklecka",
+  "version": "1.0.0",
+  "description": "Your job is to implement a command-line [Thesaurus](https://en.wikipedia.org/wiki/Thesaurus) tool in Node.js using TypeScript. Use the [openthesaurus.de](https://www.openthesaurus.de/) word database as the data source for your tool. You can download the database in text format [here](https://www.openthesaurus.de/export/OpenThesaurus-Textversion.zip).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "start": "node thesaurus.js",
+    "copy-app": "cpx ./app.js ./dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/htl-perg-2018-19-4bhif/thesaurus-example-tklecka.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/htl-perg-2018-19-4bhif/thesaurus-example-tklecka/issues"
+  },
+  "homepage": "https://github.com/htl-perg-2018-19-4bhif/thesaurus-example-tklecka#readme",
+  "devDependencies": {
+    "@types/jquery": "^3.3.22",
+    "@types/node": "^10.12.10",
+    "typescript": "^3.1.6"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.3"
+  }
+}
